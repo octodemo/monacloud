@@ -49,7 +49,7 @@ jobs:
          with:
           method: kubeconfig
           kubeconfig: ${{ secrets.KUBECONFIG }} 
-          context: monacloud 
+          context: jmaks-admin 
          id: setcontext
 
        - name: Get tag name
