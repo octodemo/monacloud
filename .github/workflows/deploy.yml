@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: azure
-      url: http://azure.monacloud.mvkaran.net
+      url: http://azure.monacloud.lessgreen.org
     
     steps:
        - name: Checkout repo
